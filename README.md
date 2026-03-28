@@ -20,7 +20,7 @@ Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Bra
 ## Architecture
 
 <p align="center">
-  <img src="/plots/overall.pdf" width="100%"/>
+  <img src="[/plots/overall.pdf](https://github.com/kanglzu/hmp_net/blob/main/module.pdf)" width="100%"/>
 </p>
 <p align="center">
   <img src="/plots/module.pdf" width="100%"/>
