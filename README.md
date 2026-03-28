@@ -7,7 +7,7 @@
 Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Brain Tumor Segmentation Integrating Physics, Topology, and Tumor Dynamics**.
 
 <p align="center">
-  <img src="pipeline.pdf" width="100%"/>
+  <img src="/plots/pipeline.pdf" width="100%"/>
 </p>
 
 ## Highlights
@@ -20,10 +20,10 @@ Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Bra
 ## Architecture
 
 <p align="center">
-  <img src="overall.pdf" width="100%"/>
+  <img src="/plots/overall.pdf" width="100%"/>
 </p>
 <p align="center">
-  <img src="module.pdf" width="100%"/>
+  <img src="/plots/module.pdf" width="100%"/>
 </p>
 
 | Module | Level | Role |
