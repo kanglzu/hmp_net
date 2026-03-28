@@ -15,7 +15,7 @@ Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Bra
 - **Physics-aware fusion**: a learnable coupling matrix models inter-modal MRI dependencies derived from shared tissue parameters.
 - **Topology-guided encoding**: differentiable Betti-number approximation via multi-scale morphological gradients captures tumor connectivity and boundary complexity.
 - **Dynamics-informed decoding**: a single-step Fisher-Kolmogorov solver embeds biologically plausible reaction-diffusion growth patterns.
-- **Hierarchical alignment**: each prior is injected at the semantic level where it is most effective (shallow/mid/deep), retaining 99.6% of exhaustive-deployment accuracy at 53% of the parameters.
+- **Hierarchical alignment**: each prior is injected at the semantic level where it is most effective (shallow/mid/deep).
 
 ## Architecture
 
