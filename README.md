@@ -20,7 +20,10 @@ Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Bra
 ## Architecture
 
 <p align="center">
-  <img src="hmpnetpaper/images/overall.pdf" width="100%"/>
+  <img src="overall.pdf" width="100%"/>
+</p>
+<p align="center">
+  <img src="module.pdf" width="100%"/>
 </p>
 
 | Module | Level | Role |
@@ -30,25 +33,6 @@ Official implementation of **HMP-Net: A Hierarchical Multi-Prior Network for Bra
 | TDM / DGD | Encoder L4 / Decoder L4 | Reaction-diffusion dynamics modeling |
 | CMF | Before encoder | Cross-Modal Fusion with learnable modality weights |
 | EMP | Skip connections | Enhanced Multi-Prior cross-attention gating |
-
-## Results
-
-### BraTS 2021
-
-| Method | Avg Dice (%) | Avg IoU (%) | Avg HD95 (mm) |
-|--------|:---:|:---:|:---:|
-| nnU-Net | 89.20 | 83.60 | 3.17 |
-| Swin UNETR | 88.95 | 83.23 | 3.86 |
-| SegMamba | 90.81 | 83.25 | 3.47 |
-| **HMP-Net** | **91.55** | **84.51** | **2.81** |
-
-### BraTS 2018
-
-| Method | Avg Dice (%) | Avg IoU (%) | Avg HD95 (mm) |
-|--------|:---:|:---:|:---:|
-| nnU-Net | 82.89 | 73.79 | 5.21 |
-| VM-UNet | 84.83 | 74.04 | 4.21 |
-| **HMP-Net** | **86.58** | **76.65** | **3.99** |
 
 ## Installation
 
