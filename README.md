@@ -1,5 +1,7 @@
 # HMP-Net: Hierarchical Multi-Prior Network for Brain Tumor Segmentation
 
+**NOTE: Due to the author's personal negligence in writing, some data in some tables of the paper were mistakenly recorded, specifically manifested as the last decimal being incorrectly recorded as 4 or 5 when these values were summarized and retained to two decimal places in Excel. Now we will make our experimental logs public and correct the forms that were incorrectly registered. It should be noted that these errors are all concentrated in the two decimal places of the percentile score, so even if there are recording errors, the error is less than 0.5%, which has no impact on the main results of the experiment and the conclusion of the experiment.**
+
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3120/)
 [![PyTorch 2.3](https://img.shields.io/badge/pytorch-2.3-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
